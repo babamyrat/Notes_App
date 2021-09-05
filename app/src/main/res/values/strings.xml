@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">Notes App</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="name1">Here you can </string>
+    <string name="text1">Here you can find activities to practise your reading skills.</string>
+
+    <string name="name2">Reading will </string>
+    <string name="text2">Reading will help you to improve your understanding of the language and vocabulary.</string>
+
+    <string name="name3">The self-study </string>
+    <string name="text3">The self-study lessons in this section are written and organised languages (CEFR).</string>
+
+    <string name="name4">There are different </string>
+    <string name="text4">There are different types of texts and interactive exercises that practise the time. </string>
+
+    <string name="name5">Take our free online English </string>
+    <string name="text5">Take our free online English test to find out which level to choose. </string>
+
+    <string name="name6">Select your level </string>
+    <string name="text6">Select your level, from beginner, and improve your reading skills at your whenever  </string>
+
 </resources>
