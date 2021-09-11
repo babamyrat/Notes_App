@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NotesApp">
+
         <activity
             android:name=".ui.details.NoteDetailsActivity"
             android:exported="true" />
         <activity
             android:name=".ui.MainActivity"
-            android:exported="true">
+            android:exported="true"/>
+
+        <activity
+            android:name=".ui.NavDrawerActivity"
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

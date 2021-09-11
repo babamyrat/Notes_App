@@ -19,5 +19,9 @@
 
     <string name="name6">Select your level </string>
     <string name="text6">Select your level, from beginner, and improve your reading skills at your whenever  </string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="action_one">App Start</string>
+    <string name="action_two">About App</string>
 
 </resources>
