@@ -23,5 +23,9 @@
     <string name="close_drawer">Close</string>
     <string name="action_one">App Start</string>
     <string name="action_two">About App</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About app</string>
 
 </resources>
