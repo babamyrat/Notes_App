@@ -37,13 +37,7 @@ public class MainsActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarMains.toolbar);
-//        binding.appBarMains.fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
+
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
@@ -56,34 +50,7 @@ public class MainsActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-
-//
-//        Toolbar toolbar = findViewById(R.id.toolbar);
-//        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
-//            @Override
-//            public boolean onMenuItemClick(MenuItem item) {
-//                if (item.getItemId() == R.id.action_delete) {
-//                    adapter.setNotes(Collections.emptyList());
-//                    adapter.notifyDataSetChanged();
-//
-//                    return true;
-//                }
-//                return false;
-//            }
-//        });
-
-
-
     }
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.mains, menu);
-//
-//        return true;
-//    }
-
 
     @Override
     public boolean onSupportNavigateUp() {
