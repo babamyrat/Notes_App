@@ -7,15 +7,18 @@ public class Note implements Parcelable {
 
     private int name;
     private int text;
+    private String image;
 
-    public Note(int name, int text) {
+    public Note(int name, int text, String image) {
         this.name = name;
         this.text = text;
+        this.image = image;
     }
 
     protected Note(Parcel in) {
         name = in.readInt();
         text = in.readInt();
+        image = in.readString();
     }
 
     public static final Creator<Note> CREATOR = new Creator<Note>() {
@@ -46,6 +49,14 @@ public class Note implements Parcelable {
         this.text = text;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -55,5 +66,6 @@ public class Note implements Parcelable {
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeInt(name);
         parcel.writeInt(text);
+        parcel.writeString(image);
     }
 }

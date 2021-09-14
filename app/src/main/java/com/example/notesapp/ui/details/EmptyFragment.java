@@ -1,4 +1,4 @@
-package com.example.notesapp.ui;
+package com.example.notesapp.ui.details;
 
 import android.os.Bundle;
 
